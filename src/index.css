@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.options {
+  top: calc(100% + 0.25em);
+}
+.highlighted {
+  background-color: hsl(200, 100%, 50%);
+  color: white;
+}
+.selected {
+  background-color: hsl(200, 100%, 70%);
+  color: white;
+}
